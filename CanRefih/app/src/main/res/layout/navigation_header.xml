@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/txt_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/gothambook"
+        android:text="@string/slogan"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/txt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/gothambold"
+        android:text="CAN"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt_logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_logo"
+        android:fontFamily="@font/gothambold"
+        android:text="BLOG"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/txt_logo2"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/yinyang1" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/halfsun3" />
+
+</RelativeLayout>

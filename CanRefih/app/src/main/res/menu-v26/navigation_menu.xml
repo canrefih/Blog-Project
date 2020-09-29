@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search_menu"
+            android:icon="@drawable/search"
+            android:title="SEARCH"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/promo_codes_menu"
+            android:icon="@drawable/promo"
+            android:title="CODES"
+            android:iconTint="@color/black"/>
+        <item
+            android:id="@+id/orders_menu"
+            android:icon="@drawable/cart"
+            android:title="ORDERS"
+            android:iconTint="@color/black"/>
+    </group>
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/full_android_menu"
+                    android:icon="@drawable/android"
+                    android:title="Full Stack Android"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/full_ios_menu"
+                    android:icon="@drawable/apple"
+                    android:title="Full Stack iOS"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/front_end_menu"
+                    android:icon="@drawable/ui"
+                    android:title="Front-End Mobile"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/flutter_menu"
+                    android:icon="@drawable/f"
+                    android:title="Flutter"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/others_menu"
+                    android:icon="@drawable/more"
+                    android:title="Others"
+                    android:iconTint="@color/black"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="General">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/support_menu"
+                    android:icon="@drawable/support"
+                    android:title="Support"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/settings_menu"
+                    android:icon="@drawable/settings"
+                    android:title="Settings"
+                    android:iconTint="@color/black"/>
+                <item
+                    android:id="@+id/about_menu"
+                    android:icon="@drawable/info"
+                    android:title="About"
+                    android:iconTint="@color/black"/>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

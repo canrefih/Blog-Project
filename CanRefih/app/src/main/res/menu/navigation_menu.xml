@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search_menu"
+            android:icon="@drawable/search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/promo_codes_menu"
+            android:icon="@drawable/promo"
+            android:title="@string/codes" />
+        <item
+            android:id="@+id/orders_menu"
+            android:icon="@drawable/cart"
+            android:title="@string/orders" />
+    </group>
+
+    <item android:title="@string/categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/full_android_menu"
+                    android:icon="@drawable/android"
+                    android:title="@string/full_stack_android" />
+                <item
+                    android:id="@+id/full_ios_menu"
+                    android:icon="@drawable/apple"
+                    android:title="@string/full_stack_ios" />
+                <item
+                    android:id="@+id/front_end_menu"
+                    android:icon="@drawable/ui"
+                    android:title="@string/front_end_mobile" />
+                <item
+                    android:id="@+id/flutter_menu"
+                    android:icon="@drawable/f"
+                    android:title="@string/flutter" />
+                <item
+                    android:id="@+id/others_menu"
+                    android:icon="@drawable/more"
+                    android:title="@string/others" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/general">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/support_menu"
+                    android:icon="@drawable/support"
+                    android:title="@string/support" />
+                <item
+                    android:id="@+id/settings_menu"
+                    android:icon="@drawable/settings"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/about_menu"
+                    android:icon="@drawable/info"
+                    android:title="@string/about" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
